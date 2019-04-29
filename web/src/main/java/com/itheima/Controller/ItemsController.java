@@ -18,5 +18,7 @@ public class ItemsController {
         com.itheima.domain.Items items = itemsService.findById(1);
         model.addAttribute("item",items);
         return "itemDetail";
+
+        //更新成功
     }
 }
